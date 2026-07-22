@@ -1,5 +1,5 @@
 ## Status
-- **Current week:** Week 2 — COMPLETE ✅ (quiz pending)
+- **Current week:** Week 2 — COMPLETE ✅ (quiz: 4/6, gaps noted: explicit context passing, stale-session handling)
 - **Next:** Week 3 — Tool Design & MCP (new chat: "Week 3 - MCP")
 
 ## Log
