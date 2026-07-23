@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "order-support": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["week3-mcp/order_server.py"],
+      "env": {
+        "ORDER_API_TOKEN": "${ORDER_API_TOKEN}"
+      }
+    }
+  }
+}
