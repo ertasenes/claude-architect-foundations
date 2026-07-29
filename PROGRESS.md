@@ -12,3 +12,7 @@ Files: bad_descriptions(_v2).py, good_descriptions.py, error_responses.py, force
 Exercise 1 (exam guide): COMPLETE — differentiated descriptions, structured errors, business-rule gate, structured escalation handoff, multi-concern handling.
 Quiz: 10/12. Drill list for week 7: any-vs-forced boundary, Grep-vs-Glob content/name distinction.
 Next: Week 4 — Claude Code Configuration & Workflows (Domain 3, 20%). Open a new chat titled "Week 4 - Claude Code".
+
+## Week 4 — IN PROGRESS (Claude Code Configuration, Domain 3)
+- 2026-07-30 · Lesson 4.1 done: CLAUDE.md hierarchy (user/project/directory), @import via notes/style-guide.md, /memory diagnostics. Found a pre-existing power-user template in ~/.claude/CLAUDE.md; backed up (CLAUDE.md.backup) and trimmed — a live TS 3.1 case. Verified: directory CLAUDE.md loads on file touch (not at startup); demo_ prefix + docstring + English rules applied from three different layers in one file. Quiz: 6/6.
+- Next: Lesson 4.2 — path-scoped rules (.claude/rules/ with glob frontmatter).
