@@ -24,3 +24,9 @@ Next: Week 4 — Claude Code Configuration & Workflows (Domain 3, 20%). Open a n
 - Next: Lesson 4.5 — iterative refinement (input/output examples, test-driven iteration, interview pattern, batch-vs-sequential fixes).
 - 2026-07-31 · Lesson 4.5 done: iterative refinement. Experiment A (vague prose): silent assumptions (ValueError, E.164) disclosed only as a trailing note — guidance, not guarantee, again. Experiment B (test-first): 4 given cases + 10 edge cases, first run 8 failed/6 passed, single root cause (ValueError vs None contract), 2-line fix → 14 passed — validation-retry loop live in pytest. Experiment C (interview pattern): surfaced unanticipated design space (validation strictness, 7-digit local, special numbers, output shape). Chef rule sealed: interacting fixes together, independent fixes sequentially. Quiz: 6/6.
 - Next: Lesson 4.6 — Claude Code in CI/CD (-p, --output-format json, --json-schema, independent review instance) — closes Week 4.
+- 2026-07-31 · Lesson 4.6 done: headless CI reviewer (-p, --output-format json, --json-schema as inline JSON). Independent instance caught docstring-vs-code validation gap + missing EXAM TAKEAWAY lines; findings fixed via find→fix→verify loop. Quiz: 6/6.
+
+## Week 4 — COMPLETE ✅ (Claude Code Configuration, Domain 3)
+Quiz total: 35/36. Drill list for week 7: paths (rules) vs context: fork (skills).
+Files: CLAUDE.md (root+week4), notes/style-guide.md, .claude/rules/python-demos.md, .claude/commands/exam-drill.md, .claude/skills/repo-audit/SKILL.md, normalize_phone.py + tests, review_schema.json, notes/ccarf-scenarios.md, notes/week4-claude-code.md
+Next: Week 5 — Prompt Engineering & Structured Output (Domain 4, 20%). Open a new chat titled "Week 5 - Structured Output".
