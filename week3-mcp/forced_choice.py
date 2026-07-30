@@ -90,3 +90,5 @@ def run_arm(label, first_choice):
 
 run_arm("A", {"type": "auto"})
 run_arm("B", {"type": "tool", "name": "extract_metadata"})
+
+# EXAM TAKEAWAY: tool_choice {"type":"tool","name":...} guarantees a specific tool runs first, but you must release it to "auto" afterward or the model is forced to call it on every turn forever.

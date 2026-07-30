@@ -84,3 +84,5 @@ def run_agent(user_message):
 answer = run_agent("Where are my orders ORD-1001 and ORD-1002?")
 print("---")
 print("FINAL ANSWER:", answer)
+
+# EXAM TAKEAWAY: The agentic loop keeps calling the API until stop_reason="end_turn", handling every tool_use block in each response (Claude may request several at once).

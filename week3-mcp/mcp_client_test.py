@@ -38,3 +38,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: The Agent SDK connects to a standalone MCP server by launching it as a stdio subprocess; tools are namespaced mcp__<server>__<tool> and must be allow-listed.

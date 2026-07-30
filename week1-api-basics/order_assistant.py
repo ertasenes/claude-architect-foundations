@@ -231,3 +231,5 @@ while True:
     if session["closed"]:
         print("\n[session ended by assistant]")
         break
+
+# EXAM TAKEAWAY: Enforce hard prerequisites (identity before refund) in code, not the prompt — deterministic guards beat probabilistic instructions in a multi-tool agent.

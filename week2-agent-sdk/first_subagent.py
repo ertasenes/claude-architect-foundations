@@ -57,3 +57,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: An AgentDefinition (description/prompt/tools/model) registers a subagent the coordinator delegates to via Task; parent_tool_use_id distinguishes coordinator from subagent output.

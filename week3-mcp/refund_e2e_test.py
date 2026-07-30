@@ -42,3 +42,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: An end-to-end test verifies the full multi-tool choreography — lookup, refund attempt, business error, then escalate_to_human with a structured handoff — not just a single call.

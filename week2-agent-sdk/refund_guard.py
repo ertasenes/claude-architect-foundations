@@ -85,3 +85,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: A PreToolUse hook can deterministically deny a tool call (refund over the limit) before it runs, enforcing policy in code with a reason the agent relays.

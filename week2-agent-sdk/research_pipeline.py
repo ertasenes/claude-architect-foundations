@@ -79,3 +79,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: In a coordinator/researcher/synthesizer pipeline, a tool-less subagent can only see context you explicitly pass into its prompt — findings and sources must be forwarded, not assumed shared.

@@ -94,3 +94,5 @@ for step in range(6):                       # safety net only, NOT the stop logi
                 "is_error": is_err,
             })
     messages.append({"role": "user", "content": tool_results})
+
+# EXAM TAKEAWAY: Structured tool errors (errorCategory/isRetryable) and returning "not found" as a valid empty result — not a generic failure — let the agent recover correctly instead of giving up.

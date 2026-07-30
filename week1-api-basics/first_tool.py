@@ -35,3 +35,5 @@ print("STOP REASON:", response.stop_reason)
 print("---")
 for block in response.content:
     print(block)
+
+# EXAM TAKEAWAY: Passing tools makes Claude return stop_reason="tool_use" with a tool_use block — it requests the call, it does not execute it.

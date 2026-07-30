@@ -95,3 +95,5 @@ def order_catalog() -> str:
 
 if __name__ == "__main__":
     mcp.run()
+
+# EXAM TAKEAWAY: A FastMCP server exposes @mcp.tool functions and @mcp.resource data, enforcing business rules (the $500 refund gate) server-side so they hold for any client.

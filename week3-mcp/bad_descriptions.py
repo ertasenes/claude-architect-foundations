@@ -49,3 +49,5 @@ for i in range(5):
     print(f"run {i+1}: {chosen}")
 
 print("\nTotals:", counts)
+
+# EXAM TAKEAWAY: Minimal, near-identical tool descriptions make Claude pick the wrong tool inconsistently — the description is the model's only signal for which tool fits.

@@ -59,3 +59,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: Independent subtasks should be spawned as parallel subagents (multiple Task calls in one response) rather than run sequentially.

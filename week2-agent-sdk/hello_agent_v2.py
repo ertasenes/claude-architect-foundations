@@ -18,3 +18,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: ClaudeAgentOptions configures the run (e.g. model choice); filter messages by type (AssistantMessage/ResultMessage) and blocks by type to extract only what you need.

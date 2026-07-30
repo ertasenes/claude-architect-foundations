@@ -10,3 +10,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: The Agent SDK's query() is an async iterator — you await messages as they stream in, rather than getting one blocking response.

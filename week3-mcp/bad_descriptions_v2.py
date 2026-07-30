@@ -56,3 +56,5 @@ def run_arm(label, tool_choice, runs=5):
 
 run_arm("A", {"type": "auto"})
 run_arm("B", {"type": "any"})
+
+# EXAM TAKEAWAY: With poor descriptions, tool_choice "auto" lets the model stall or ask, while "any" forces it to guess — forcing a call cannot fix an ambiguous tool design.

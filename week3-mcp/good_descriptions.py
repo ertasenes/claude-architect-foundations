@@ -79,3 +79,5 @@ def run_arm(label, tool_choice, runs=5):
 
 run_arm("A", {"type": "auto"})
 run_arm("B", {"type": "any"})
+
+# EXAM TAKEAWAY: Rich descriptions (purpose + input format + example queries + boundaries pointing to the neighbor tool) make Claude route to the correct tool reliably.

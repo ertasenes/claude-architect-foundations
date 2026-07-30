@@ -84,3 +84,5 @@ final_response = client.messages.create(
 
 print("STOP REASON:", final_response.stop_reason)
 print("FINAL ANSWER:", final_response.content[0].text)
+
+# EXAM TAKEAWAY: A full tool round trip is two API calls — you run the tool yourself and feed the result back as a tool_result matched to the tool_use_id.

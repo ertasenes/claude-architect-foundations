@@ -47,3 +47,5 @@ async def main():
 
 
 asyncio.run(main())
+
+# EXAM TAKEAWAY: A fresh session has no memory; resume=session_id continues the same conversation, and fork_session=True copies it so the original stays untouched.

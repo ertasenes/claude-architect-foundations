@@ -11,3 +11,5 @@ response = client.messages.create(
 )
 
 print(response.content[0].text)
+
+# EXAM TAKEAWAY: A basic Messages API call sends a messages list and reads the reply from response.content[0].text.
