@@ -30,3 +30,5 @@ Next: Week 4 — Claude Code Configuration & Workflows (Domain 3, 20%). Open a n
 Quiz total: 35/36. Drill list for week 7: paths (rules) vs context: fork (skills).
 Files: CLAUDE.md (root+week4), notes/style-guide.md, .claude/rules/python-demos.md, .claude/commands/exam-drill.md, .claude/skills/repo-audit/SKILL.md, normalize_phone.py + tests, review_schema.json, notes/ccarf-scenarios.md, notes/week4-claude-code.md
 Next: Week 5 — Prompt Engineering & Structured Output (Domain 4, 20%). Open a new chat titled "Week 5 - Structured Output".
+- 2026-07-31 · Lesson 5.1 done: prompt-only JSON vs forced tool_use extraction. Arm A: 3/3 json.loads failures (markdown fence), total_amount as string, currency as raw 'TL', run 3 appended prose outside the fence - same prompt, different shape. Arm B: 3/3 byte-identical, float type, enum normalized to 'TRY', comma-decimal handled via schema description. stop_reason end_turn vs tool_use. Quiz: 4/5; miss = schema fixes syntax/types, NOT semantics (line items not summing to total -> validation layer, lesson 5.4).
+- Next: Lesson 5.2 - schema design against hallucination (nullable fields, enum + "other" + detail).
